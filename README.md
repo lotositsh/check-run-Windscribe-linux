@@ -2,9 +2,9 @@
 
 check run Windscribe linux
 
-- create bash script add code to 
+- clone bash script 
 
-```nano check_vpn.sh```
+```check_vpn.sh```
 
 - add to cron
 
@@ -12,4 +12,4 @@ check run Windscribe linux
 
 - check every 5 min:
 
-```*/1 * * * * /root/check_vpn.sh```
+```*/1 * * * * /path/check_vpn.sh```
