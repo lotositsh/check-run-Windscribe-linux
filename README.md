@@ -3,16 +3,13 @@
 check run Windscribe linux
 
 - create bash script add code to 
-- 
-```bash
-nano check_vpn.sh```
+
+```nano check_vpn.sh```
 
 - add to cron
 
-```bash
-crontab -e```
+```crontab -e```
 
 - check every 5 min:
 
-```bash
-*/1 * * * * /root/check_vpn.sh```
+```*/1 * * * * /root/check_vpn.sh```
