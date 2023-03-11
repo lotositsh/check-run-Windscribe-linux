@@ -10,6 +10,6 @@ check run Windscribe linux
 
 ```crontab -e```
 
-- check every 5 min:
+- check every 1 min:
 
 ```*/1 * * * * /path/check_vpn.sh```
